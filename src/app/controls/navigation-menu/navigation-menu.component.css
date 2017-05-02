@@ -1,0 +1,6 @@
+.toolbar-filler {
+    flex: 1;
+}
+md-toolbar {
+    margin-bottom: 25px;
+}
