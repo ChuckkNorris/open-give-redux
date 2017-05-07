@@ -21,6 +21,7 @@
       "styles": [
         "index.scss",
         "styles/themes/default-theme.scss"
+        
       ],
       "scripts": ["scripts/please-wait.min.js"],
       "environmentSource": "environments/environment.ts",
