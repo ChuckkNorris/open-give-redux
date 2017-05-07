@@ -16,6 +16,8 @@ import { FlexLayoutModule } from "@angular/flex-layout";
 import 'hammerjs';
 import { PortfolioComponent } from './controls/portfolio/portfolio/portfolio.component';
 import { PortfolioCardComponent } from './controls/portfolio/portfolio-card/portfolio-card.component';
+import { CourseCardComponent } from './controls/course/course-card/course-card.component';
+import { CourseComponent } from './controls/course/course/course.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { PortfolioCardComponent } from './controls/portfolio/portfolio-card/port
     CoursePageComponent,
     NavigationMenuComponent,
     PortfolioComponent,
-    PortfolioCardComponent
+    PortfolioCardComponent,
+    CourseCardComponent,
+    CourseComponent
   ],
   imports: [
     BrowserModule,
