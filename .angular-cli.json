@@ -20,8 +20,9 @@
       "prefix": "app",
       "styles": [
         "index.scss",
-        "styles/themes/default-theme.scss"
-        
+        "styles/layout.scss",
+        "styles/themes/default-theme.scss",
+        "styles/please-wait.css"
       ],
       "scripts": ["scripts/please-wait.min.js"],
       "environmentSource": "environments/environment.ts",
