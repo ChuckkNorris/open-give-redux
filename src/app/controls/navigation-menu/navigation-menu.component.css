@@ -19,3 +19,7 @@
 .nav-button {
     min-width: 0px;
 }
+
+.main-content {
+    overflow: hidden;
+}

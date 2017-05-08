@@ -18,6 +18,7 @@ import { PortfolioComponent } from './controls/portfolio/portfolio/portfolio.com
 import { PortfolioCardComponent } from './controls/portfolio/portfolio-card/portfolio-card.component';
 import { CourseCardComponent } from './controls/course/course-card/course-card.component';
 import { CourseComponent } from './controls/course/course/course.component';
+import { ParallaxHeaderComponent } from './controls/layout/parallax-header/parallax-header.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { CourseComponent } from './controls/course/course/course.component';
     PortfolioComponent,
     PortfolioCardComponent,
     CourseCardComponent,
-    CourseComponent
+    CourseComponent,
+    ParallaxHeaderComponent
   ],
   imports: [
     BrowserModule,
